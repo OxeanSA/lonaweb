@@ -68,10 +68,10 @@
 }
 
 :root[color-mode=dark] {
-  --bg-color: #121212;
-  --nav-bg: #121212;
-  --nav-bottom-bg: #121212;
-  --nav-bottom-bg-translucent: #12121211;
+  --bg-color: #141414;
+  --nav-bg: #141414;
+  --nav-bottom-bg: #141414;
+  --nav-bottom-bg-translucent: #14141411;
   --nav-bottom-color: #B2B2B2;
   --nav-bottom-color-2: #67666B;
   --text-color: #f1f6fc;
