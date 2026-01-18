@@ -231,9 +231,9 @@
 
     // Initialize UI
     //$("#nav").style.display = "none";
-    //$('#c100').style.display = 'none';
+    $('#c100').style.display = 'none';
 
-    nurl("home", $(".nav-button-home"), "refresh");
+    //nurl("home", $(".nav-button-home"), "refresh");
     AUi(false);
 
     function AUi(lgn) {
@@ -251,14 +251,14 @@
               setItem("refresh_token", arr.refresh_token);
               nurl("home", $(".nav-button-home"), "refresh");
             } else {
-              //LoginPg();
+              LoginPg();
             }
           });
       } else if (lgn == true && getItem("refresh_token") !== "" && getItem("refresh_token") !== "") {
         bodyData.user_id = getItem("ID");
         nurl("home", $(".nav-button-home"), "refresh");
       } else {
-        //LoginPg();
+        LoginPg();
       };
     };
 
