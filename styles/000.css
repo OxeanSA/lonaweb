@@ -345,7 +345,6 @@ body {
     'Helvetica-Neue',
     Arial,
     sans-serif;
-  padding-top: 25px;
   font-weight: 400;
   color: var(--primary-text-color);
   line-height: 1.8;
@@ -800,7 +799,7 @@ img:not([src]) {
   text-shadow: 0 0 0.08px var(--main-blue);
 }
 
-.home-page .home-search-container {
+.home-search-container {
   align-items: center;
   justify-content: center;
   position: relative;
@@ -810,7 +809,7 @@ img:not([src]) {
 
 }
 
-.home-page .home-search-ics-container {
+.home-search-ics-container {
   border-radius: 20px;
   align-items: center;
   justify-content: center;
@@ -824,14 +823,14 @@ img:not([src]) {
   -o-border-radius: 20px;
 }
 
-.home-page .home-search-container .search-icon-container {
+.home-search-container .search-icon-container {
   margin-left: 16px;
   font-size: 20px;
   font-weight: 700;
   z-index: 400;
 }
 
-.home-page .home-search-container .search-icon-container .ai-icon i {
+.home-search-container .search-icon-container .ai-icon i {
   background: linear-gradient(90deg, #3b82f6 0%, #06b6d4 100%);
   /* background-image: linear-gradient(90deg, #30CFD0 25%, #330867 50%, #7487A3 75%);
   animation: aiIconSpinBg 2.2s linear infinite; */
@@ -846,7 +845,7 @@ img:not([src]) {
 }
 
 
-.home-page .home-search-container.search-active {
+.home-search-container.search-active {
   position: sticky;
   top: 0;
   align-items: center;
@@ -858,7 +857,7 @@ img:not([src]) {
 }
 
 
-.home-page .home-search-container.search-active .home-search-input {
+.home-search-container.search-active .home-search-input {
   width: 100%;
   transition: width 0.3s cubic-bezier(.4, 0, .2, 1);
 }
@@ -873,18 +872,18 @@ img:not([src]) {
   }
 }
 
-.home-page .home-search-container .market-button {
+.home-search-container .market-button {
   font-size: 14px;
   color: var(--color-ic);
   margin-left: 20px;
 }
 
-.home-page .home-search-container .videosfilter-button {
+.home-search-container .videosfilter-button {
   font-size: 14px;
   color: var(--color-ic);
 }
 
-.home-page .home-search-container .home-posts-filters-container {
+.home-search-container .home-posts-filters-container {
   padding-left: 2%;
   padding-right: 2%;
   display: flex;
@@ -893,7 +892,7 @@ img:not([src]) {
   margin-left: 20px;
 }
 
-.home-page .home-search-container .home-posts-filter-button {
+.home-search-container .home-posts-filter-button {
   padding: 6px;
   color: var(--font-color-nc);
   text-align: center;
@@ -905,7 +904,7 @@ img:not([src]) {
   -o-border-radius: 50%;
 }
 
-.home-page .home-search-container .home-search-input {
+.home-search-container .home-search-input {
   height: 100%;
   width: 100%;
   padding: 0 0 0 10px;
