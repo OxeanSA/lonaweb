@@ -216,9 +216,26 @@ function LoginPg() {
   disableNavigation();
   $("#c220").style.display = "none";
   $('#c100').style.display = 'block';
-
-  $('#pg').innerHTML = "";
-  $("#pg").appendChild(createAuthElement());
+  let cachedPage = window.sessionStorage.getItem('login-page');
+  const page = document.createDocumentFragment();
+  const pageDiv = document.createElement('div');
+  if (cachedPage) {
+      setItem("currentLayout", layout);
+      pageDiv.innerHTML = cachedPage;
+      page.appendChild(pageDiv);
+      $("#pg").innerHTML = "";
+      document.getElementById('pg').appendChild(page);
+      
+    } else {
+      fetchData('/page/m', "POST")
+        .then(res => res.text())
+        .then(data => {
+          setItem("currentLayout", layout);
+          pageDiv.innerHTML = data;
+          page.appendChild(pageDiv);
+          $("#pg").innerHTML = "";
+          document.getElementById('pg').appendChild(page);
+          window.sessionStorage.setItem("login-page", data);
 };
 
 function popState(event, page) {
