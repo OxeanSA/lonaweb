@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="theme-color" content="#141414">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="styles/000.css">
+  <link rel="stylesheet" href="styles/001.css">
+  <link rel="stylesheet" href="styles/002.css">
+  <link rel="stylesheet" href="styles/@fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="styles/@fontawesome/css/fontawesome.min.css">
+
+  <!-- Scripts -->
+  <script src="scripts/main.js" type="text/javascript"></script>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <div id="nav" class="mu-nav-top">
+    <div class="top-nav-collapsed-content">
+      <div class="top-nav-collapsed-inner-content"></div>
+
+    </div>
+    <div class="top-nav">
+      <div id="plogo" onclick="Reload(this)" class="logo">Lona</div>
+      <div class="navigation-icons">
+        <div id="notif-button" class="icn onclick-blue navigation-link button">
+          <i onclick="eurl('notifications', this)" class="far fa-bell"></i>
+        </div>
+        <div id="calls-button" class="icn onclick-blue navigation-link button">
+          <i onclick="eurl('calls', this)" class="fa fa-phone"></i>
+        </div>
+        <div id="create-button" class="icn onclick-blue navigation-link">
+          <i onclick="openDeviceGallery()" class="far fa-add"></i>
+        </div>
+      </div>
+      <div class="ccont">
+        <div id="c100" class="_72fik _it4vx"></div>
+        <div id="c220"></div>
+      </div>
+    </div>
+
+    <!-- Bottom Navigation Tabs -->
+    <div class="tabs main-navigation-bottom">
+      <div class="tab nav-button-home onclick-blue active" onclick="nurl('home', this, 'refresh')">
+        <div class="inside">
+          <i class="fa fa-home"></i>
+          <span>Home</span>
+        </div>
+      </div>
+      <div class="divider blnk_dot"></div>
+      <div class="tab nav-button-friends onclick-blue" onclick="nurl('friends', this, 'refresh')">
+        <div class="inside">
+          <i class="fas fa-users"></i>
+          <span>Friends</span>
+        </div>
+      </div>
+      <div class="tab nav-button-messages onclick-blue" onclick="nurl('messages', this, 'refresh')">
+        <div class="inside">
+          <i class="fas fa-envelope"></i>
+          <span>Messages</span>
+        </div>
+      </div>
+      <div class="tab nav-button-explore onclick-blue" onclick="nurl('explore', this, 'refresh')">
+        <div class="inside">
+          <i class="fa fa-globe"></i>
+          <span>Explore</span>
+        </div>
+      </div>
+      <div class="tab nav-button-profile onclick-blue" onclick="nurl('profile', this, 'refresh')">
+        <div class="inside">
+          <i class="fa fa-user"></i>
+          <span>Profile</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="whlpg">
+    <div id="pg" class="pageInner">
+      <div class="home-page">
+        <div class="stories">
+          <!-- Placeholder Stories -->
+          <div class="stry-cnt-inl">
+            <div id="strys" class="stories-inner">
+              <div class="stry-cnt-inl">
+                <div class="stry-container">
+                  <div class="stry-uname"><span class='story-app-name'>Lona</span></div>
+                </div>
+              </div>
+              <div class="stry-cnt-inl">
+                <div class="stry-container">
+                  <div class="ph-avatar avatar-big"></div>
+                  <div class="stry-uname">
+                    <i class="loader_dot">.</i><i class="loader_dot">.</i><i class="loader_dot">.</i>
+                  </div>
+                </div>
+              </div>
+              <div class="stry-cnt-inl">
+                <div class="stry-container">
+                  <div class="ph-avatar avatar-big"></div>
+                  <div class="stry-uname">
+                    <i class="loader_dot">.</i><i class="loader_dot">.</i><i class="loader_dot">.</i>
+                  </div>
+                </div>
+              </div>
+              <div class="stry-cnt-inl">
+                <div class="stry-container">
+                  <div class="ph-avatar avatar-big"></div>
+                  <div class="stry-uname">
+                    <i class="loader_dot">.</i><i class="loader_dot">.</i><i class="loader_dot">.</i>
+                  </div>
+                </div>
+              </div>
+              <div class="stry-cnt-inl">
+                <div class="stry-container">
+                  <div class="ph-avatar avatar-big"></div>
+                  <div class="stry-uname">
+                    <i class="loader_dot">.</i><i class="loader_dot">.</i><i class="loader_dot">.</i>
+                  </div>
+                </div>
+              </div>
+              <div class="stry-cnt-inl">
+                <div class="stry-container">
+                  <div class="ph-avatar avatar-big"></div>
+                  <div class="stry-uname">
+                    <i class="loader_dot">.</i><i class="loader_dot">.</i><i class="loader_dot">.</i>
+                  </div>
+                </div>
+              </div>
+              <div class="stry-cnt-inl">
+                <div class="stry-container">
+                  <div class="ph-avatar avatar-big"></div>
+                  <div class="stry-uname">
+                    <i class="loader_dot">.</i><i class="loader_dot">.</i><i class="loader_dot">.</i>
+                  </div>
+                </div>
+              </div>
+              <div class="stry-cnt-inl">
+                <div class="stry-container">
+                  <div class="ph-avatar avatar-big"></div>
+                  <div class="stry-uname">
+                    <i class="loader_dot">.</i><i class="loader_dot">.</i><i class="loader_dot">.</i>
+                  </div>
+                </div>
+              </div>
+              <div class="stry-cnt-inl">
+                <div class="stry-container">
+                  <div class="ph-avatar avatar-big"></div>
+                  <div class="stry-uname">
+                    <i class="loader_dot">.</i><i class="loader_dot">.</i><i class="loader_dot">.</i>
+                  </div>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Search and Filters Section -->
+        <div class="home-search-container mt-8 mb-12">
+          <div class="home-search-ics-container">
+            <div class="search-icon-container">
+              <div class="ai-icon"><i class="fa fa-circle-thin"></i></div>
+            </div>
+            <input type="search" aria-valuemin="1" autocomplete="off" name="search"
+              onclick="searchFocus(this).addFocus()" class="home-search-input" placeholder="Ask or Search anything">
+          </div>
+          <div class="home-posts-filters-container">
+            <div class="home-posts-filter-button videosfilter-button onclick-blue button fa fa-play-circle-o"
+              onclick="videoPostsFilter('home')"></div>
+            <div class="home-posts-filter-button market-button onclick-blue button fa fa-add"
+              onclick="openFilePicker()"></div>
+          </div>
+        </div>
+
+        <!-- Inline Navigation -->
+        <div class="ics-home-inline mb-6">
+          <div class="ai-search-cnt" onclick="tabSetActive(this, 'useCache')">
+            <div class="ai-search-icr button"></div>
+            <span>Following</span>
+          </div>
+          <div class="ai-search-cnt default" onclick="tabSetActive(this, 'useCache')">
+            <div class="ai-search-icr button active"></div>
+            <span>For You</span>
+          </div>
+        </div>
+
+        <!-- Loading Indicator -->
+        <div class="cc2nt" id="c140">
+          <div class="c230">
+            <i class="loader_dot">•</i><i class="loader_dot">•</i><i class="loader_dot">•</i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="overlay-page"></div>
+    <div class="bottom-collapsed-content">
+      <div class="noch-header">
+        <div class="drag-icon"><span></span></div>
+      </div>
+      <div class="bottom-collapsed-inner-content">
+        <p class="user-name"></p>
+        <ul class="icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-download"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-whatsapp"></i></a>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script>
+    // Theme Initialization
+    if (window.CSS && CSS.supports("color", "var(--primary)")) {
+      const theme = localStorage.getItem("color-mode");
+      if (theme === "light") {
+        document.documentElement.setAttribute("color-mode", "light");
+      } else if (theme === "dark") {
+        document.documentElement.setAttribute("color-mode", "dark");
+      } else {
+        document.documentElement.setAttribute("color-mode", "dark");
+        localStorage.setItem("color-mode", "dark");
+      }
+    }
+
+    // Initialize UI
+    //$("#nav").style.display = "none";
+    //$('#c100').style.display = 'none';
+
+    AUi(false);
+
+    function AUi(lgn) {
+      var logged = getItem("LOGGEDIN");
+      setItem("cA", 0);
+      if (lgn == false && logged == "true" && getItem("refresh_token") !== "") {
+        drawNavigation();
+        req = fetchData("/account/userval", "POST", bodyData, "no-cache")
+        req.then(response => response.json())
+          .then(data => {
+            arr = data;
+            if (arr.status == "ok") {
+              setItem("LOGGEDIN", "true");
+              setItem("refresh_token", arr.refresh_token);
+              nurl("home", $(".nav-button-home"), "refresh");
+            } else {
+              LoginPg();
+            }
+          });
+      } else if (lgn == true && getItem("refresh_token") !== "" && getItem("refresh_token") !== "") {
+        bodyData.user_id = getItem("ID");
+        nurl("home", $(".nav-button-home"), "refresh");
+      } else {
+        LoginPg();
+      };
+    };
+
+    // Handle Popstate Events
+    if (window.history && history.pushState) {
+      window.addEventListener("load", function () {
+        this.addEventListener("popstate", function (event) {
+          const currentLayout = getItem("currentLayout");
+          popState(event, currentLayout);
+        });
+      });
+    }
+
+    // Disable Context Menu
+    window.addEventListener("contextmenu", function (e) {
+      e.preventDefault();
+    });
+
+    // Scroll Restoration
+    if (history.scrollRestoration) {
+      history.scrollRestoration = "auto";
+    }
+
+    // Hide Loading Indicator on Page Load
+    document.onreadystatechange = () => {
+      if (document.readyState === "complete") {
+        $("#c100").style.display = "none";
+      }
+    };
+  </script>
+  <script defer src="scripts/001.js" type="text/javascript"></script>
+
+</body>
+
+</html>
