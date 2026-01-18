@@ -67,7 +67,7 @@
       rgba(105, 201, 208, 1) 65%);
 }
 
-:root[color-mode=dark] {
+:root[color-mode=ndark] {
   --bg-color: #141414;
   --nav-bg: #141414;
   --nav-bottom-bg: #141414;
@@ -141,7 +141,7 @@
   }
 }
 
-:root[color-mode=ndark] {
+:root[color-mode=dark] {
   --bg-color: #010409;
   --nav-bg: #010409;
   --nav-bottom-bg: #010409;
