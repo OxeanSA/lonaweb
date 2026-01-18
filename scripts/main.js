@@ -126,7 +126,7 @@ window.addEventListener('scroll', revealOnScroll);
 window.addEventListener('DOMContentLoaded', revealOnScroll);
 
 function fetchData(endpoint, method = "POST", body = null, cache = "no-cache") {
-  const url = `${_server_v2}${endpoint}`;
+  const url = `${_server}${endpoint}`;
   
   const headers = new Headers();
 
