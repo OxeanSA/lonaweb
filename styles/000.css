@@ -1155,7 +1155,7 @@ img:not([src]) {
   background-color: var(--nav-bg);
   overflow: auto;
   white-space: nowrap;
-  padding-top: 10px;
+  padding-top: 2px;
   position: sticky;
   margin-bottom: 4px;
   top: 0;
